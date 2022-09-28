@@ -9,15 +9,17 @@ const Activity = () => {
     useEffect(()=>{
         fetch(`meals.json`)
         .then(res=>res.json())
-        .then(data=>console.log(data))
+        .then(data=>setMeals(data))
     },[])
 
     return (
-        <div className='activity-container '>
+        <div className='activity-container pt-5'>
             <div className="meals-container">
 
-<h1>My Cooking Activity</h1>
-<h2>Select today's meal</h2>
+      <h1 className='text-primary'>My Cooking Activity</h1>
+      <h4 className=' py-4'>Select today's meal</h4>
+
+<div className="meals-card ">
 
 {
     meals.map(meal=> <Meal 
@@ -25,6 +27,7 @@ const Activity = () => {
         meal={meal}
      ></Meal>)
 }
+</div>
 
             </div>
 
