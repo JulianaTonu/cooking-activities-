@@ -6,7 +6,7 @@ const Meal = (props) => {
         <div className='meal '>
             <img src={img} alt="" />
 
-            <div className='meal-info'>
+            <div className='meal-info '>
             <h2 className='mt-3'>{name}</h2>
             <p>{description.slice(0,70)}...</p>
             <p>Time:{time}</p>

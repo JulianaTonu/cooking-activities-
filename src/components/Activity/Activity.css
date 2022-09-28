@@ -1,11 +1,27 @@
-.activity-container{
+/* .activity-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
+} */
 
 .meals-card{
     display: grid;
     grid-template-columns: repeat(2, 2fr)
+}
+.name{
+    font-family: 'Lato';
+}
+.name img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.break{
+    background-color: rgb(219, 215, 215);
+    font-weight: bold;
+    margin-right: 4px;
+}
+.break:hover{
+    background-color: rgb(174, 172, 172);
 }
 
 @media screen and (max-width:767px){
