@@ -1,29 +1,44 @@
+.meals-container img{
+height: 50px;
+
+}
 /* .activity-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    position: relative;
 } */
 
 .meals-card{
     display: grid;
     grid-template-columns: repeat(2, 2fr)
 }
-.name{
+.activity-info{
     font-family: 'Lato';
 }
+/* .my-container{
+    position: absolute;
+} */
 .name img{
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    margin-right: 5px;
+}
+.mydetails{
+    background-color: rgb(187, 233, 233);
+    border-radius: 7px;
+
 }
 .break{
-    background-color: rgb(219, 215, 215);
+    background-color: rgb(187, 233, 233);
     font-weight: bold;
     margin-right: 4px;
 }
 .break:hover{
-    background-color: rgb(174, 172, 172);
+    background-color: rgb(105, 179, 179);
 }
-
+.time{
+    background-color: rgb(187, 233, 233);
+    border-radius: 7px;
+}
 @media screen and (max-width:767px){
     .meals-card{
         grid-template-columns: repeat(1,1fr);
