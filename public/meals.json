@@ -1,22 +1,22 @@
 [
     {
-      "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
-      "category": "food",
-      "name": "CRUSTED CHICKEN",
-      "time": 30,
-      "description": "The chicken is so moist and flavorful. The more seasonings you use the better it tastes. Mayo may cause some areas to be a little mushy but it still tastes amazing!",
-      
-      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6531376.jpg&w=820&h=459&c=sc&poi=face&q=60&orient=true",
-      
-      "quantity": 0
-    },
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "category": "food",
+        "name": "PRAWN MALAI CURRY",
+        "time": 60,
+        "description": "This delicious, crispy & spicy fish fry makes for a great appitizer or a side to a meal.A simple vegetable salad or sliced onion compliment the fish fry",
+        "img": "https://th.bing.com/th/id/R.16b2c11ab949e121c3cc07194bb5ad6d?rik=vlRdyAjb9tEgDQ&pid=ImgRaw&r=0",
+        
+        "quantity": 0
+      },
+    
     {
       "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
       "category": "food",
-      "name": "Easy Glazed Salmon",
+      "name": "NAWABI SEMAI",
       "time": 40,
-      "description": "It takes only four ingredients and a few moments to make this delightful main dish",
-      "img": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Easy-Glazed-Salmon_EXPS_WRSM17_28376_C03_24_6b-1.jpg?w=1200",
+      "description": "it is cooked with a combination of milk or mawa/khoya to make a creamy and rich dessert recipe. but then there is this vermicelli pudding recipe or also known as nawabi semai which is prepared by layering vermicelli noodles and custard milk is known for its subtle sweetness. ",
+      "img": "https://th.bing.com/th/id/R.4f3d84765c85388de96ed905fbfa763b?rik=XGE5n%2bNXtjiIHA&pid=ImgRaw&r=0",
       
       "quantity": 0
     },
@@ -26,27 +26,28 @@
       "category": "food",
       "name": "CHICKEN",
       "time": 30,
-      "description": "Best Boneless Chicken Breast Recipes Ready in 30 Minutes",
+      "description": "Cook this creamy, comforting stew to serve with our smashed mini jacket potatoes. This warming one-pot with chicken, peas and leeks is perfect for a special family meal",
       "img": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1013&q=80",
       
       "quantity": 0
     },
     {
-      "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-      "category": "food",
-      "name": "PRAWN MALAI CURRY",
-      "time": 60,
-      "description": "This delicious, crispy & spicy fish fry makes for a great appitizer or a side to a meal.A simple vegetable salad or sliced onion compliment the fish fry",
-      "img": "https://th.bing.com/th/id/R.16b2c11ab949e121c3cc07194bb5ad6d?rik=vlRdyAjb9tEgDQ&pid=ImgRaw&r=0",
-      
-      "quantity": 0
-    },
+        "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
+        "category": "food",
+        "name": "CRUSTED CHICKEN",
+        "time": 30,
+        "description": "The chicken is so moist and flavorful. The more seasonings you use the better it tastes. Mayo may cause some areas to be a little mushy but it still tastes amazing!",
+        
+        "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6531376.jpg&w=820&h=459&c=sc&poi=face&q=60&orient=true",
+        
+        "quantity": 0
+      },
     {
       "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
       "category": "food",
       "name": "BEEF CURRY",
       "time": 60,
-      "description": "",
+      "description": "This slow-cooked beef curry is easy to make and perfect for feeding the family – add chunks of potato for an extra hearty dish.",
       "img": "https://th.bing.com/th/id/R.9b017fc463427c340a9cbd2d830110f1?rik=Hs0rh26SvCfuqQ&riu=http%3a%2f%2fimages.bigoven.com%2fimage%2fupload%2fv1421255733%2fsweet-beef-curry-2.jpg&ehk=JbMO7p4j%2bR%2fESlSzzJZ0cvXYUO01ODABw3MRREu%2f1ps%3d&risl=&pid=ImgRaw&r=0",
       
       "quantity": 0
@@ -56,8 +57,8 @@
       "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
       "category": "food",
       "name": "DAL",
-      "time": 40,
-      "description": "",
+      "time": 25,
+      "description": "Here I am using masoor dal (red lentils) as it is widely available and cooks quickly into a smooth dish. But you can also use many other yellow lentils - channa dal, toor dal, split moong dal, or a combination.",
       "img": "https://images.unsplash.com/photo-1626500155537-93690c24099e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       
       "quantity": 0

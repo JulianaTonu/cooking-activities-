@@ -8,7 +8,7 @@ const Meal = (props) => {
 
             <div className='meal-info'>
             <h2 className='mt-3'>{name}</h2>
-            <p>{description}</p>
+            <p>{description.slice(0,70)}...</p>
             <p>Time:{time}</p>
             </div>
 
