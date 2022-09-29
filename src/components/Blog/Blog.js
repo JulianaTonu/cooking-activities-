@@ -11,7 +11,7 @@ const Blog = () => {
         <div class="p-3">
             <div class="p-2">
               <h5>1. How does React works?</h5>
-              <p>Ans :</p>
+              <p>Ans:React uses declarative paradigm that makes it easier to reason about our application and aims to be both efficient and flexible.It design simple views for each state in our application and react will efficiently update and render just the right component when our data changes </p>
             </div>
          
             <div class="p-2">
