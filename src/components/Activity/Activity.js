@@ -8,6 +8,7 @@ import Meal from './Meal.js/Meal';
 const Activity = () => {
     const [meals, setMeals] = useState([])
     const [list, setList]=useState([])
+    
 
     useEffect(()=>{
         fetch(`meals.json`)
@@ -22,6 +23,7 @@ const Activity = () => {
     const newList =[...list, meal]
     setList(newList)
 }
+   
     return (
         <div className='activity-container pt-5 row'>
             <div className="meals-container col-8 m-3 g-3">
@@ -48,7 +50,10 @@ const Activity = () => {
 
 <div className="my-container bg-light col ">
 <MyContainer 
+
 list ={list}
+
+
 ></MyContainer>
    
 
