@@ -8,6 +8,7 @@ import Meal from './Meal.js/Meal';
 const Activity = () => {
     const [meals, setMeals] = useState([])
     const [list, setList]=useState([])
+
     useEffect(()=>{
         fetch(`meals.json`)
         .then(res=>res.json())
@@ -16,8 +17,11 @@ const Activity = () => {
 
     
 
-    const handleAddToList = (selectedMeal) =>{
-    console.log(selectedMeal)}
+    const handleAddToList = (meal) =>{
+    console.log("selectedMeal",meal)
+    const newList =[...list, meal]
+    setList(newList)
+}
     return (
         <div className='activity-container pt-5 row'>
             <div className="meals-container col-8 m-3 g-3">
@@ -33,7 +37,7 @@ const Activity = () => {
     meals.map(meal=> <Meal 
          key ={meal.id}
         meal={meal}
-        list ={list}
+        
         handleAddToList={handleAddToList}
      ></Meal>)
 }
@@ -43,7 +47,9 @@ const Activity = () => {
             </div>
 
 <div className="my-container bg-light col ">
-<MyContainer></MyContainer>
+<MyContainer 
+list ={list}
+></MyContainer>
    
 
             </div>

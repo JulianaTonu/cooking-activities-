@@ -11,12 +11,19 @@ const Blog = () => {
         <div class="p-3">
             <div class="p-2">
               <h5>1. How does React works?</h5>
-              <p>Ans : </p>
+              <p>Ans :</p>
             </div>
          
             <div class="p-2">
               <h5>2. Difference between Props and State  </h5>
-              <p>Ans : <span class="fw-semibold">.</span></p>
+              <p>Ans : 
+              </p>
+            </div>
+           
+            <div class="p-2">
+              <h5>3. What are the usecases of useEffect except loading data from api? </h5>
+              <p>Ans : 
+              </p>
             </div>
            
     

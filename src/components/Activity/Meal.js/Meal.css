@@ -2,8 +2,8 @@
     /* height: 480px; */
     width: 350px;
     /* width: 250px; */
-    border: 2px solid red;
-  /* text-align: center; */
+    border: 2px solid rgb(98, 97, 97);
+  box-shadow: 4px 4px 8px gray;
     margin-bottom: 10px;
     border-radius: 8px;
     position: relative;
@@ -27,4 +27,8 @@
     font-size: 21px;
     line-height: 25px;
     font-style: normal;
+}
+.btn{
+    background-color:  rgb(50, 207, 207);
+    border-radius: 7px;;
 }

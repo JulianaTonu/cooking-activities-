@@ -2,11 +2,24 @@ import React from 'react';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const MyContainer = () => {
+const MyContainer = ({list}) => {
 
     const toastNotify =()=>{
         toast("Activity Completed")
     }
+
+    let time =0;
+    
+    for(const meal of list){
+        time = time + meal.time
+        
+    }
+    
+
+
+
+
+
     return (
         <div>
             
@@ -58,11 +71,11 @@ const MyContainer = () => {
 
 <div className='cooking-details'>
 <h4 className='p-3  d-flex justify-content-between time'>Cooking time
-<p>220</p></h4>
+<p>{time} min</p></h4>
 <h4 className=' p-3 d-flex justify-content-between time'>Break time <p>20</p></h4>
 
 <div className='text-center'>
-<button onClick={ toastNotify } className='btn btn-info p-3 mt-3 fw-bold '>Activity Completed</button>
+<button onClick={ toastNotify } className='btn btn-warning text-dark p-3 mt-3 fw-bold '>Activity Completed</button>
 <ToastContainer/>
 </div>
 

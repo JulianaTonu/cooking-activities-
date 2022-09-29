@@ -2,6 +2,7 @@ import React from 'react';
 import './Meal.css'
 const Meal = (props) => {
     const {name,img,description,time}=props.meal
+    const{handleAddToList}=props
     return (
         <div className='meal '>
             <img src={img} alt="" />
@@ -10,9 +11,8 @@ const Meal = (props) => {
             <h2 className='mt-3'>{name}</h2>
             <p>{description.slice(0,70)}...</p>
             <p>Time:{time}</p>
-            </div>
-
-            <button className='btn btn-info px-5 ms-3 mb-3 fw-bold'>ADD TO LIST</button>
+            
+            <button onClick={()=> handleAddToList(props.meal)} className='btn btn-warning text-dark px-5 ms-5  fw-bold'>ADD TO LIST</button></div>
 
         </div>
     );
