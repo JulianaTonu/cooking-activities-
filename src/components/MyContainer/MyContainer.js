@@ -24,6 +24,12 @@ const MyContainer = ({list}) => {
         time = time + meal.time
         
     }
+
+    let breakTime= 0;
+    for(const item of breaktime){
+        breakTime = item
+        
+    }
     
 
 
@@ -84,7 +90,7 @@ const MyContainer = ({list}) => {
 <h3 className='p-3'>Cooking Details</h3>
 <h4 className='p-3  d-flex justify-content-between time'>Cooking time
 <p>{time} min</p></h4>
-<h4 className=' p-3 d-flex justify-content-between time'>Break time <p>00seconds</p></h4>
+<h4 className=' p-3 d-flex justify-content-between time'>Break time <p>{breakTime} Seconds</p></h4>
 
 <div className='text-center'>
 <button onClick={ toastNotify } className='btn btn-warning text-dark p-3 mt-3 fw-bold '>Activity Completed</button>
