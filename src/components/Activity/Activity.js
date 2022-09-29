@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import './Activity.css'
 import Meal from './Meal.js/Meal';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Activity = () => {
     const [meals, setMeals] = useState([])
 
@@ -12,6 +14,9 @@ const Activity = () => {
         .then(data=>setMeals(data))
     },[])
 
+    const toastNotify =()=>{
+        toast("Activity Completed")
+    }
     return (
         <div className='activity-container pt-5 row'>
             <div className="meals-container col-8 m-3 g-3">
@@ -84,7 +89,8 @@ const Activity = () => {
 <h4 className=' p-3 d-flex justify-content-between time'>Break time <p>20</p></h4>
 
 <div className='text-center'>
-<button className='btn btn-info p-3 mt-3 fw-bold '>Activity Completed</button>
+<button onClick={ toastNotify } className='btn btn-info p-3 mt-3 fw-bold '>Activity Completed</button>
+<ToastContainer/>
 </div>
 </div>
 </div>
