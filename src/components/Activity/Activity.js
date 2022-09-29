@@ -28,7 +28,7 @@ const Activity = () => {
         <div className='activity-container pt-5 row'>
             <div className="meals-container col-8 m-3 g-3">
             
-      <h1 className='text-primary'><img  src={require('../image/logoo.png')} alt="" /> My Cooking Activity</h1>
+      <h1><img  src={require('../image/logoo.png')} alt="" /> My Cooking Activity</h1>
       <h4 className=' py-4'>Select today's meal</h4>
 
 

@@ -5,14 +5,21 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const MyContainer = ({list}) => {
 
-    const [breaktime, setBreaktime]=useState([])
+    const [breaktime, setBreaktime]=useState(0)
+
+    const currentBreakTime = JSON.parse(localStorage.getItem('Breaktime'));
 
     const handleBreaktime =(item)=>{
-    console.log("mtbreaktime",item)
-    const newtime =[...breaktime,item ]
-    setBreaktime(newtime)
-}
 
+        
+           
+        localStorage.setItem('Breaktime', JSON.stringify(item));
+                
+       const newTime =JSON.parse( localStorage.getItem('Breaktime'));
+     setBreaktime(newTime)
+                
+    
+}
 
     const toastNotify =()=>{
         toast("Activity Completed")
@@ -25,11 +32,11 @@ const MyContainer = ({list}) => {
         
     }
 
-    let breakTime= 0;
-    for(const item of breaktime){
-        breakTime = item
+    // let breakTime= 0;
+    // for(const item of breaktime){
+    //     breakTime = item
         
-    }
+    // }
     
 
 
@@ -90,7 +97,7 @@ const MyContainer = ({list}) => {
 <h3 className='p-3'>Cooking Details</h3>
 <h4 className='p-3  d-flex justify-content-between time'>Cooking time
 <p>{time} min</p></h4>
-<h4 className=' p-3 d-flex justify-content-between time'>Break time <p>{breakTime} Seconds</p></h4>
+<h4 className=' p-3 d-flex justify-content-between time'>Break time <p>{currentBreakTime} Seconds</p></h4>
 
 <div className='text-center'>
 <button onClick={ toastNotify } className='btn btn-warning text-dark p-3 mt-3 fw-bold '>Activity Completed</button>

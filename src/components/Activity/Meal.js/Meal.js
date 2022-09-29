@@ -9,8 +9,8 @@ const Meal = (props) => {
 
             <div className='meal-info '>
             <h2 className='mt-3'>{name}</h2>
-            <p>{description.slice(0,70)}...</p>
-            <p>Time:{time}</p>
+            <p>{description.slice(0,110)}...</p>
+            <p>Time: {time}</p>
             
             <button onClick={()=> handleAddToList(props.meal)} className='btn btn-warning text-dark px-5 ms-5  fw-bold'>ADD TO LIST</button></div>
 

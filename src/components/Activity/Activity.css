@@ -2,6 +2,10 @@
 height: 50px;
 
 }
+.meals-container h1{
+    color: rgb(33, 186, 186);
+    font-family: 'Lato';
+}
 /* .activity-container{
     position: relative;
 } */
