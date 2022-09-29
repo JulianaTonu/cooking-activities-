@@ -39,6 +39,10 @@ const MyContainer = () => {
       </div>
 </div>
 
+<div className='ms-4 p-2 mt-3 mydetails'>
+    <p>This is Juliana Tonu.I am a student of programming hero.Currently I'm learning React.I am from Dhaka but my hometown is Magura</p>
+</div>
+
 <div className='ms-3'>
     <h3 className='p-3'>Add a Break</h3>
 
