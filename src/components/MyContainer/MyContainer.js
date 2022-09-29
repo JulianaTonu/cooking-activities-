@@ -11,12 +11,10 @@ const MyContainer = ({list}) => {
 
     const handleBreaktime =(item)=>{
 
-        
-           
         localStorage.setItem('Breaktime', JSON.stringify(item));
                 
        const newTime =JSON.parse( localStorage.getItem('Breaktime'));
-     setBreaktime(newTime)
+       setBreaktime(newTime)
                 
     
 }
@@ -39,10 +37,6 @@ const MyContainer = ({list}) => {
     // }
     
 
-
-
-
-
     return (
         <div>
             
@@ -53,7 +47,7 @@ const MyContainer = ({list}) => {
     <img src={require('../image/tonu3.png')} alt="" />
     <div>
     <h3>Juliana Tonu</h3>
-    <h4>Dhaka, Bangladesh</h4>
+    <h6>Dhaka, Bangladesh</h6>
     </div>
 
     </div>
